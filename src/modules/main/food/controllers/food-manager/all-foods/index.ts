@@ -1,0 +1,1 @@
+export {AllFoods} from './all-foods';

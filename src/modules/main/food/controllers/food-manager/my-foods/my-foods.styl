@@ -1,0 +1,34 @@
+.my-foods {
+	width: 600px;
+	height: 260px;
+	border-radius: 12px;
+	border: solid 1px;
+	background-color: #F6F1E9;
+	padding: 25px;
+
+	&__header {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		font-family: Montserrat;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 29.26px;
+		text-align: left;
+		margin: 0;
+	}
+
+	&__content {
+		height: 200px;
+		overflow: scroll;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+
+		&::-webkit-scrollbar {
+			width: 0;
+			background: transparent;
+		}
+	}
+}
